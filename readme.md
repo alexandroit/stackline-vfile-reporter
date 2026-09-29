@@ -1,31 +1,55 @@
 # @stackline/vfile-reporter
 
-Independent maintenance fork of `vfile-reporter@7.0.5`, preserving its API and published type declarations.
+> vfile utility to create a report for a file.
 
-```sh
+[![npm version](https://img.shields.io/npm/v/@stackline/vfile-reporter.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/vfile-reporter)
+[![license](https://img.shields.io/npm/l/@stackline/vfile-reporter.svg?style=flat-square)](https://github.com/alexandroit/stackline-vfile-reporter)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-vfile-reporter-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-vfile-reporter)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/vfile-reporter/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/vfile-reporter/)** | **[npm](https://www.npmjs.com/package/@stackline/vfile-reporter)** | **[Issues](https://github.com/alexandroit/stackline-vfile-reporter/issues)** | **[Repository](https://github.com/alexandroit/stackline-vfile-reporter)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/vfile-reporter` is the Stackline-maintained distribution of `vfile-reporter@7.0.5`. It is an independent continuation of [vfile-reporter](https://github.com/vfile/vfile-reporter); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/vfile-reporter@1.0.1` |
+| API target | `vfile-reporter@7.0.5` |
+| Supported Node.js | `See supported framework requirements` |
+| License | `MIT` |
+| Module type | `module` |
+| Main entry | `index.js` |
+| Types | `index.d.ts` |
+| Runtime dependencies | `vfile, vfile-sort, string-width, vfile-message, supports-color, vfile-statistics, @types/supports-color, unist-util-stringify-position` |
+
+## Installation
+
+```bash
 npm install @stackline/vfile-reporter
-# Keep existing imports:
-npm install vfile-reporter@npm:@stackline/vfile-reporter@1.0.0
 ```
 
-[Stackline](https://alexandro.net/) · [Issues](https://github.com/alexandroit/stackline-vfile-reporter/issues) · [Community](https://www.reddit.com/r/Stackline/)
+Preserve existing imports and plugin resolution with an npm alias:
 
-See [UPSTREAM.md](UPSTREAM.md) for source identity and issue review, and [CHANGELOG.md](CHANGELOG.md) for maintenance changes. Functional tests also run against the final npm tarball; releases are published from GitHub Actions with provenance.
+```bash
+npm install vfile-reporter@npm:@stackline/vfile-reporter
+```
 
-## Upstream documentation
+## Usage and API reference
 
-# vfile-reporter
+### vfile-reporter
 
-[![Build][build-badge]][build]
-[![Coverage][coverage-badge]][coverage]
-[![Downloads][downloads-badge]][downloads]
-[![Sponsors][sponsors-badge]][collective]
-[![Backers][backers-badge]][collective]
-[![Chat][chat-badge]][chat]
 
 [vfile][] utility to create a report.
 
-![Example screenshot of vfile-reporter][screenshot]
 
 ## Contents
 
@@ -64,7 +88,7 @@ This package is [ESM only][esm].
 In Node.js (version 14.14+ and 16.0+), install with [npm][]:
 
 ```sh
-npm install vfile-reporter
+npm install @stackline/vfile-reporter
 ```
 
 In Deno with [`esm.sh`][esmsh]:
@@ -87,7 +111,7 @@ Say our module `example.js` looks as follows:
 
 ```js
 import {VFile} from 'vfile'
-import {reporter} from 'vfile-reporter'
+import {reporter} from '@stackline/vfile-reporter'
 
 const one = new VFile({path: 'test/fixture/1.js'})
 const two = new VFile({path: 'test/fixture/2.js'})
@@ -194,7 +218,7 @@ Forked from [ESLint][]s stylish reporter
 (originally created by Sindre Sorhus), which is Copyright (c) 2013
 Nicholas C. Zakas, and licensed under MIT.
 
-<!-- Definitions -->
+
 
 [build-badge]: https://github.com/vfile/vfile-reporter/workflows/main/badge.svg
 
@@ -253,3 +277,23 @@ Nicholas C. Zakas, and licensed under MIT.
 [api-reporter]: #reporterfiles-options
 
 [api-options]: #options
+
+## Credits and original authors
+
+- Original project: [vfile-reporter](https://github.com/vfile/vfile-reporter).
+- Titus Wormer.
+- Copyright (c) 2015 Titus Wormer <tituswormer@gmail.com>.
+- Copyright (c) 2013 Nicholas C. Zakas. All rights reserved.
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.

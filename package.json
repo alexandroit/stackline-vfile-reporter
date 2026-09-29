@@ -30,11 +30,14 @@
     "test:package": "node scripts/test-package.mjs",
     "test:types": "tsc --ignoreConfig --noEmit --module NodeNext --moduleResolution NodeNext --target ES2022 --strict test/stackline-types.mts"
   },
-  "homepage": "https://github.com/alexandroit/stackline-vfile-reporter#readme",
+  "homepage": "https://alexandro.net/docs/vanilla/vfile-reporter/",
   "keywords": [
+    "stackline",
+    "npm-package",
+    "vfile-reporter",
+    "typescript",
     "vfile",
     "vfile-util",
-    "vfile-reporter",
     "util",
     "utility",
     "reporter",
@@ -46,7 +49,6 @@
     "message",
     "warning",
     "error",
-    "stackline",
     "maintenance-fork"
   ],
   "prettier": {
@@ -98,7 +100,7 @@
     "typescript": "7.0.2",
     "@types/node": "24.12.2"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publishConfig": {
     "access": "public"
   },
