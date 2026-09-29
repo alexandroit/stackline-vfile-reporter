@@ -1,0 +1,30 @@
+{
+  "upstream": "vfile-reporter",
+  "fork": "@stackline/vfile-reporter",
+  "repository": "alexandroit/stackline-vfile-reporter",
+  "upstreamRepository": "vfile/vfile-reporter",
+  "upstreamVersion": "7.0.5",
+  "sourceCommit": "36b98284e20615e9aaa862be10d105175cfa64bb",
+  "upstreamIntegrity": "sha512-NdWWXkv6gcd7AZMvDomlQbK3MqFWL1RlGzMn++/O2TI+68+nqxCPTvLugdOtfSzXmjh+xUyhp07HhlrbJjT+mw==",
+  "status": "source-ready",
+  "files": {
+    "license": "97803529c350fc98f586389468cf3a83cb44a5c536014b0a3fb05b5a088cd95a",
+    "lib/color.browser.js": "4908d8206980a7122d055e8f39ef2c6e8bf3202fba7a1c9f2cc9340807b7c69e",
+    "lib/color.js": "1bcd65b982af32cf876a4898814043aedbdf44b1203018ba2c3a1bf238220f96",
+    "index.js": "6d5c5e94e1abeb5dcf8ab364751424acc546f355e812950d59ee7ba9cdb93db4",
+    "lib/index.js": "b99c754d4b1098d1726c9bbfd42f82e4892f824a5264c9e54f0cf76710c790a9",
+    "lib/platform.browser.js": "2b92be16944c7ddf25b6a435fe91f9ac91e82545ac194528561866f119870fa2",
+    "lib/platform.js": "e3626a1bed87ef0675fac6cf59358ffb5af4df73588e537b12ebf8d589690ab5",
+    "package.json": "1a6ed861885c1766d922711fdff2dff83517dd7427f10b9a545145e60521509b",
+    "readme.md": "501759080026c8cf9f668da5e432d38ff0128c6419022b99ca0a32081b7d8cb7",
+    "lib/color.browser.d.ts": "1254e8dd78f45fcf93545aae7865a5b93ed774fc618671434bde64dbd74f4dc8",
+    "lib/color.d.ts": "c65780b8c4ddb1134aa2cefec471451ab4a1f937bd74925fcd4b777ea19638f5",
+    "index.d.ts": "caf8b8bdbece6057aefb2a11c68119ad6c6eacb8646d8f09185c6353be573d3c",
+    "lib/index.d.ts": "c2253b67b14c4e2323ba82e86b5c5f62e57d648e0d1adcc88209b3952060c661",
+    "lib/platform.browser.d.ts": "db5e039a24c426efafbe0ea828f6668d21ec76aefcf80dfbea57eed7e7facfad",
+    "lib/platform.d.ts": "9d1f7c6de8adf0949777d16f88616df35453bc6140e327a5a2f532cbe59597b7"
+  },
+  "allowedRuntimeChanges": [],
+  "testCommand": "cross-env FORCE_COLOR=\"true\" node --conditions development test.js",
+  "strategy": "Published upstream files, including generated declarations, are preserved and checked against SHA-256. Functional tests run against source and the extracted final package. Changes to published runtime files require an explicit reviewed allowlist."
+}
