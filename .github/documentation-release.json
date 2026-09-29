@@ -4,7 +4,7 @@
     {
       "name": "@stackline/vfile-reporter",
       "path": "readme.md",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "baselineVersion": "1.0.0",
       "keywords": [
         "stackline",
@@ -29,8 +29,8 @@
       "homepage": "https://alexandro.net/docs/vanilla/vfile-reporter/",
       "baselineTarball": "https://registry.npmjs.org/@stackline/vfile-reporter/-/vfile-reporter-1.0.0.tgz",
       "baselineIntegrity": "sha512-GFt+jdZdU+OOPR5mUJ1L6r9wR25x1RN1ai4E+QKrjZy3Oua7dvx/PID8cPxYFANyR2rCFykyzQGJtInNhzSRzg==",
-      "expectedSha512": "baeaf003c3edf5b758712767017931708075465d245abb8ab3e98b53bdf7eeb85b97064b316c106d92fa37720a86583837b5648d695f1d6746f5a46f9d6e4347",
-      "tag": "docs-stackline-vfile-reporter-v1.0.1"
+      "expectedSha512": "13413ff46dc9f9d01402bbf538056fadd96f562967f2ca03179e321fe3712cd190abed70b1412a26eea1da0d082d821a13c6b0513f6c1c11520292c8bb4c1e90",
+      "tag": "docs-stackline-vfile-reporter-v1.0.2"
     }
   ]
 }
